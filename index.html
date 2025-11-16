@@ -55,7 +55,7 @@
   <div id="welcomePage" class="page active px-4">
     <div class="max-w-4xl mx-auto my-12 p-10 md:p-12 rounded-2xl bg-white/12 backdrop-blur-xl border border-white/12 shadow-2xl text-center transform transition duration-500 ease-out animate-enter-up">
       <h1 class="logo text-5xl md:text-6xl font-semibold text-white mb-3">VoyageFlow</h1>
-      <p class="italic font-semibold text-white/90 text-base md:text-lg mb-6">Your journey starts here ✈️</p>
+      <p class="italic font-semibold text-white/90 text-base md:text-lg mb-6">Your journey starts here!</p>
       <button class="px-8 py-3 rounded-full bg-gradient-to-r from-orange-400 to-orange-600 text-white font-semibold shadow-lg transform transition hover:-translate-y-1"
               onclick="showPage('registrationPage')">
         Get Started
@@ -239,10 +239,10 @@
         <div class="p-5 rounded-xl bg-white/22 backdrop-blur-xl border border-white/30 shadow-lg">
           <div class="text-white font-extrabold text-lg mb-3">Travel Options</div>
           <ul class="space-y-3 text-white/90">
+            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="3000" class="calc-option mt-1 scale-110"> Deluxe Bus — ₹3,000</label></li>
+            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="5000" class="calc-option mt-1 scale-110"> Train — ₹5,000</label></li>
             <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="10000" class="calc-option mt-1 scale-110"> Economy Flight — ₹10,000</label></li>
             <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="20000" class="calc-option mt-1 scale-110"> Business Flight — ₹20,000</label></li>
-            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="5000" class="calc-option mt-1 scale-110"> Train — ₹5,000</label></li>
-            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="3000" class="calc-option mt-1 scale-110"> Deluxe Bus — ₹3,000</label></li>
           </ul>
         </div>
 
@@ -250,10 +250,10 @@
         <div class="p-5 rounded-xl bg-white/22 backdrop-blur-xl border border-white/30 shadow-lg">
           <div class="text-white font-extrabold text-lg mb-3">Food Packages</div>
           <ul class="space-y-3 text-white/90">
-            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="2000" class="calc-option mt-1 scale-110"> Basic Meals — ₹2,000</label></li>
-            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="6000" class="calc-option mt-1 scale-110"> Premium Dining — ₹6,000</label></li>
             <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="1800" class="calc-option mt-1 scale-110"> Local Cuisine Tour — ₹1,800</label></li>
+            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="2000" class="calc-option mt-1 scale-110"> Basic Meals — ₹2,000</label></li>
             <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="4000" class="calc-option mt-1 scale-110"> Fine Dining — ₹4,000</label></li>
+            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="6000" class="calc-option mt-1 scale-110"> Premium Dining — ₹6,000</label></li>
           </ul>
         </div>
 
@@ -262,9 +262,9 @@
           <div class="text-white font-extrabold text-lg mb-3">Activities</div>
           <ul class="space-y-3 text-white/90">
             <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="1500" class="calc-option mt-1 scale-110"> City Sightseeing — ₹1,500</label></li>
-            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="4000" class="calc-option mt-1 scale-110"> Adventure Sports — ₹4,000</label></li>
             <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="2000" class="calc-option mt-1 scale-110"> Cultural Experience — ₹2,000</label></li>
             <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="3000" class="calc-option mt-1 scale-110"> Spa & Wellness — ₹3,000</label></li>
+            <li><label class="flex gap-3 items-start"><input type="checkbox" data-price="4000" class="calc-option mt-1 scale-110"> Adventure Sports — ₹4,000</label></li>
           </ul>
         </div>
 
@@ -346,19 +346,19 @@
         <div id="paymentOptions" class="space-y-4">
 
             <div class="payment-option" data-method="UPI">
-                <span class="text-2xl mr-3">🟣</span> UPI (GPay / PhonePe / Paytm)
+                UPI (GPay / PhonePe / Paytm)
             </div>
 
             <div class="payment-option" data-method="Card">
-                <span class="text-2xl mr-3">💳</span> Debit / Credit Card
+                Debit / Credit Card
             </div>
 
             <div class="payment-option" data-method="Bank Transfer">
-                <span class="text-2xl mr-3">🏦</span> Bank Transfer (Net Banking)
+                Bank Transfer (Net Banking)
             </div>
 
             <div class="payment-option" data-method="Wallet">
-                <span class="text-2xl mr-3">👛</span> Wallets (Amazon Pay / Paytm)
+                Wallets (Amazon Pay / Paytm)
             </div>
 
         </div>
